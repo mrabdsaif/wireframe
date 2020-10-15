@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: 95%;
     margin: 0 auto;
@@ -45,11 +48,9 @@ article figure p{
     overflow-y: scroll;
     text-align: left;
     line-height: 1.5;
-    /* margin-bottom: 115px; */
     height: 300px;
     float: right;
     margin-right: 215px;
-    /* margin-left: 200px; */
 }
 article figure p strong{
     font-weight: bolder;
@@ -60,6 +61,7 @@ border: none;
 position: relative;
 bottom: 39px;
 left: 127px;
+transition: background-color 1s,color 2s, box-shadow 2s;
 }
 article figure button:hover{
     background-color: rgb(55, 55, 255);
